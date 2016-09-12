@@ -5,7 +5,7 @@ function fSetSiteStyle(sId){
 	var iStyle = parseInt(sId.substring(3,sId.length));
 	if ((iStyle < 0) || (iStyle > arrStyles.length)) return;
 
-	var sAllCssDir = https://vit-1.github.io/hobby/navigate/css/";
+	var sAllCssDir = "https://vit-1.github.io/hobby/navigate/css/";
 	var sCurrentCss;
 	var oLinkScrStyle = document.getElementById("screen");
 	
