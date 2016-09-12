@@ -1,0 +1,29 @@
+body{font-family:Verdana,Arial Cyr,Arial,Helvetica,Sans-Serif;font-size:88%}
+#SiteName{font-size:4em}
+#headmenu_url{text-align:left}
+.roadline H2{font-size:1em}
+#maincontent H1{font-size:3em}
+#maincontent H2{font-size:1.5em}
+#maincontent H3{font-size:1.3em}
+#maincontent H4{font-size:1em}
+#maincontent H5{font-size:0.8em}
+#maincontent H2, #maincontent H3, #maincontent H4{display:block;
+margin:0 0 0.5em 0;text-align:left}
+#maincontent H2{padding-left:0.3em;border-style:solid;border-width:0 0 0 1.3em}
+#maincontent H3{font-weight:normal}
+#maincontent ul.menuitems li a{font-weight:bold}
+#maincontent p{text-align:justify;text-indent:2.5em}
+#maincontent ul.galleryrow li p, #maincontent p.c, #maincontent .stih p{
+text-indent:0;text-align:left}
+#maincontent ol, #maincontent ul, #maincontent code{text-align:left}
+#jbtns_head{font-size:12px;line-height:14px;}
+.jbtnstext{font-weight:bolder}
+#findform INPUT{font-size:1em}
+#findcmd{font-size:1em}
+
+.j{text-align:justify!important}
+.c{text-align:center!important}
+.l{text-align:left!important}
+.r{text-align:right!important}
+em{font-weight:bolder;font-style:italic}
+acronym{border-bottom:dotted 2px}

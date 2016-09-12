@@ -1,0 +1,23 @@
+@import url(http://vit-1.github.io/hobby/navigate/css/karkas.css");
+@import url(http://vit-1.github.io/hobby/navigate/css/font.css");
+body{background:#FFF url(../clouds.gif) repeat-x 120px 10px;color:black}
+#SiteName{background:url(wtrees.gif) repeat-x bottom}
+#SiteName span{background-position:left bottom;background-repeat:no-repeat;
+background-image:url(wmain.gif);color:#FB2;font-weight:bold}
+.roadline,#pages,#prvhtm,#nxthtm{background:#9AE}
+.roadline li{color:#999;font-weight:bold}
+.roadline li,#maincontent{background:#DDE}
+.roadline #biker{background:transparent url(../biker.gif)}
+.roadline li.current,#pages .current{background:#56A;color:#FFF}
+.roadline li.current a,#findcmd{color:#FFF}
+.jbtnstext,#maincontent H2,#maincontent H3,#maincontent img,
+table caption{color:#56A}
+#fontsize A{color:#00F}
+#maincontent,#maincontent img,#footerrow{border-color:#9AE}
+#maincontent H2{border-color:#56A}
+#maincontent img,#findtext{background:#FFF}
+#maincontent code{background:#EEF}
+#findcmd{background:#00F}
+#maincontent .stih{background:url(wleafs.gif) no-repeat left top}
+/*A:link{color:darkred}A:hover{color:red}A:visited{color:#666}
+#backpict{background-image:url(hobbyfon2.gif)}*/

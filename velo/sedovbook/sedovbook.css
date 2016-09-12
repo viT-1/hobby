@@ -1,0 +1,19 @@
+/*p{text-align:justify!important}*/
+img
+{
+filter:alpha(opacity=50);
+-moz-opacity:0.55;
+}
+h4{
+line-height:1.2em;
+margin:0;
+padding:0
+}
+.legendedimg{margin:0 auto}
+p.legend{
+font-size:0.8em;
+text-indent:0!important
+}
+p.legend span{
+/*white-space:nowrap*/
+}

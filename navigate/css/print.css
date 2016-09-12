@@ -1,0 +1,15 @@
+#jbtns_head,#SiteName,#headmenu_gr1,#headmenu_gr2,#prv_up_nxt,#footer,
+#footerrow,#pages a{display:none}
+#pages a.current{display:block;float:right}
+#maincontent H2{margin:0 0 6pt 0;padding:0}
+#maincontent H3,#maincontent H4{margin:0;padding:0}
+#maincontent p{margin:4pt 0 12pt 0;text-indent:30pt;font:12pt Times}
+#maincontent p.legend{font:10pt}
+#maincontent img{filter:alpha(opacity=100);-moz-opacity:1}
+div.legendedimg{width:300px;padding:0}
+div.legendedimg.fr{float:right;margin:0 0 12pt 10pt}
+div.legendedimg.fl{float:left;margin:0 10pt 12pt 0}
+
+#maincontent div.stih p{margin:0}
+#maincontent div.stih{margin-bottom:24pt}
+/*Странно работает float в IE6 (IE5.5 выпадает в осадок) в зависимости от чисел!!!*/

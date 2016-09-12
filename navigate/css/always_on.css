@@ -1,0 +1,37 @@
+#incFSize,#decFSize,#jst0,#jst1,#jst2{color:blue;text-decoration:underline;
+cursor:pointer;cursor:hand}
+#jst2{display:none}
+#incFSize:hover,#decFSize:hover,#jst0:hover,#jst1:hover,#jst2:hover{color:#FB2}
+
+table{margin:0 0 1em 0;width:100%;border-collapse:collapse}
+table caption{padding-bottom:0.5em}
+table td, table th{border-style:solid;border-color:#000}
+table th{border-width:0 0 1px 1px}
+table td{border-width:0 0 0 1px}
+table .fst{border-left:0}
+table td, table th{padding:0.22em;text-align:center}
+
+table{font-size:1em}
+table caption{font-weight:bolder;font-size:large}
+table th{font-weight:bold}
+
+/*-- Thanks Dave Shea (mezzoblue.com) for idea. But (c) for this css code is MY =) --*/
+/*-- Date: 03.12.2005 (.lastcol isn't used yet) --*/
+#maincontent .galleryrow{list-style:none;margin:0 auto;padding:0;width:100%;
+text-align:left;position:relative;float:left}
+#maincontent .galleryrow li{margin:0;padding:0;text-align:center;float:left;
+overflow:hidden}
+#maincontent .galleryrow.w200 li{width:50%}
+#maincontent .galleryrow.w80 li{width:20%}
+#maincontent .galleryrow.w80 li.firstcol,
+#maincontent .galleryrow.w80 li.lastcol{width:19.9%}
+#maincontent .galleryrow li h3{display:block;margin:0 auto 1em auto;padding:0;
+width:100%;text-align:center}
+#maincontent .galleryrow li img{margin:0 auto 2px auto}
+#maincontent .galleryrow.w200 li img, #maincontent .galleryrow.w200 li h3,
+#maincontent .galleryrow.w200 li .imgdescr{width:200px}
+#maincontent .galleryrow.w80 li img{width:80px}
+#maincontent .galleryrow li .imgdescr{margin:0 auto 2px auto;text-align:right;
+position:relative}
+#maincontent .galleryrow li .imgdescr .date{margin:0;padding:0;position:relative}
+#maincontent .galleryrow li .imgdescr a{left:0;bottom:1px;position:absolute}
