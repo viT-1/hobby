@@ -1,5 +1,5 @@
-@import url('karkas.css');
-@import url('font.css');
+@import url('../karkas.css');
+@import url('../font.css');
 body{background:#FFF url(../clouds.gif) repeat-x 120px 10px;color:black}
 #SiteName{background:url(strees.gif) repeat-x bottom}
 #SiteName span{background-position:left bottom;background-repeat:no-repeat;
