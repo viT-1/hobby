@@ -4,9 +4,12 @@ My old (2008) homepage (on Russian). [Try it!](https://vit-1.github.io/hobby/)
 ### [Key features](https://vit-1.github.io/hobby/viT/siteidea/):
 - print.css
 - naked css (css off)
+- changeable skins
 - naked js
 - 640x480px screen
+- font size changeable > with changing controls size
 - no tables! ;)
+- clear URLs (without .html/.asp/.php extensions)
 
 ### Supported browsers:
 - MS IE 5.0
