@@ -6,6 +6,7 @@ My old (2008) homepage (on Russian). [Try it!](https://vit-1.github.io/hobby/)
 - naked css (css off)
 - changeable skins
 - naked js
+- cookies
 - 640x480px screen
 - font size changeable > with changing controls size
 - no tables! ;)
