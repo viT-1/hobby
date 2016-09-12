@@ -1,6 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<!-- Òîâàðèù, ïîìíè: ó êàæäîé õîðîøåé èäåè åñòü ñâîé àâòîð! (c)viT -->
+<!-- Ð¢Ð¾Ð²Ð°Ñ€Ð¸Ñ‰, Ð¿Ð¾Ð¼Ð½Ð¸: Ñƒ ÐºÐ°Ð¶Ð´Ð¾Ð¹ Ñ…Ð¾Ñ€Ð¾ÑˆÐµÐ¹ Ð¸Ð´ÐµÐ¸ ÐµÑÑ‚ÑŒ ÑÐ²Ð¾Ð¹ Ð°Ð²Ñ‚Ð¾Ñ€! (c)viT -->
 <html xmlns="https://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
 <head>
 <meta http-equiv="Cache-Control" content="no-cache, post-check=0, pre-check=0" />

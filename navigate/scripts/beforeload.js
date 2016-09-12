@@ -1,13 +1,13 @@
 <!--
-//Добавляем панель управления
+//Р”РѕР±Р°РІР»СЏРµРј РїР°РЅРµР»СЊ СѓРїСЂР°РІР»РµРЅРёСЏ
 var htmlcode;
-htmlcode = '<div id="jbtns_head"><span id="jst0" title="без стиля">&nbsp;&nbsp;</span>'+
-'<span class="jbtnstext"> стиль </span><span id="jst1" title="установить стиль - зима">зима</span> <span id="jst2" title="установить стиль - лето">лето</span> '+
-'<br /><span id="incFSize" title="увеличить">+</span><span class="jbtnstext"> шрифт'+
-' </span><span id="decFSize"title="уменьшить">-</span></div><hr class="hidden" />'
+htmlcode = '<div id="jbtns_head"><span id="jst0" title="Р±РµР· СЃС‚РёР»СЏ">&nbsp;&nbsp;</span>'+
+'<span class="jbtnstext"> СЃС‚РёР»СЊ </span><span id="jst1" title="СѓСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚РёР»СЊ - Р·РёРјР°">Р·РёРјР°</span> <span id="jst2" title="СѓСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚РёР»СЊ - Р»РµС‚Рѕ">Р»РµС‚Рѕ</span> '+
+'<br /><span id="incFSize" title="СѓРІРµР»РёС‡РёС‚СЊ">+</span><span class="jbtnstext"> С€СЂРёС„С‚'+
+' </span><span id="decFSize"title="СѓРјРµРЅСЊС€РёС‚СЊ">-</span></div><hr class="hidden" />'
 document.write(htmlcode);
 
-//Считываем значение cookie выбранной в прошлом сеансе
+//РЎС‡РёС‚С‹РІР°РµРј Р·РЅР°С‡РµРЅРёРµ cookie РІС‹Р±СЂР°РЅРЅРѕР№ РІ РїСЂРѕС€Р»РѕРј СЃРµР°РЅСЃРµ
 if (navigator.cookieEnabled) {
 	var sLStyle = getCookie("sitestyle");
 	if (sLStyle != null) {
@@ -20,6 +20,6 @@ if (navigator.cookieEnabled) {
 	}
 }
 
-//Выделяем активный пункт главного меню
+//Р’С‹РґРµР»СЏРµРј Р°РєС‚РёРІРЅС‹Р№ РїСѓРЅРєС‚ РіР»Р°РІРЅРѕРіРѕ РјРµРЅСЋ
 fSetCurrentMenu();
 //-->

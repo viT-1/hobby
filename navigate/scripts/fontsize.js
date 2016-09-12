@@ -20,11 +20,11 @@ function fSetFontSize(position){
     if (document.getElementsByTagName){
 		currentSize = position;
 		document.getElementsByTagName("body")[0].style.fontSize = sizes[currentSize];
-		//Гасим переход по ссылке (нужно было только при вызове с элемента <a href...>)
+		//в€љР°СЃРёРј РїРµСЂРµС…РѕРґ РїРѕ СЃСЃС‹Р»РєРµ (РЅСѓР¶РЅРѕ Р±С‹Р»Рѕ С‚РѕР»СЊРєРѕ РїСЂРё РІС‹Р·РѕРІРµ СЃ СЌР»РµРјРµРЅС‚Р° <a href...>)
 		//if (window.event) window.event.returnValue = false else ev.preventDefault()
     }
     
-	//Сохранить выбранный размер в cookie
+	//вЂ”РѕС…СЂР°РЅРёС‚СЊ РІС‹Р±СЂР°РЅРЅС‹Р№ СЂР°Р·РјРµСЂ РІ cookie
 	if (navigator.cookieEnabled) {
 		var expDate = getExpDate(100,0,0);
 		setCookie("fontsize", parseInt(position), expDate, "/hobby/");
@@ -32,7 +32,7 @@ function fSetFontSize(position){
 }
 
 function fDecreaseFontSize(){
-	//Считать размер из cookie
+	//вЂ”С‡РёС‚Р°С‚СЊ СЂР°Р·РјРµСЂ РёР· cookie
 	if (navigator.cookieEnabled) {
 		var vLastFont = getCookie("fontsize");
 		vLastFont = parseInt(vLastFont);

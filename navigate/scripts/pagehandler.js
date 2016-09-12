@@ -20,7 +20,7 @@ function fClickHandler(evt) {
 			if (sElId.substring(0,3) == "jst") {
 				fSetSiteStyle(sElId);
 				
-				//Сохранить выбранный стиль в cookie
+				//РЎРѕС…СЂР°РЅРёС‚СЊ РІС‹Р±СЂР°РЅРЅС‹Р№ СЃС‚РёР»СЊ РІ cookie
 				if (navigator.cookieEnabled) {
 					var expDate = getExpDate(100,0,0);
 					setCookie("sitestyle", sElId, expDate, "/hobby/");
@@ -32,8 +32,8 @@ function fClickHandler(evt) {
 
 function fInitEvents(){
 try{
-	//Подключаем глобальный обработчик нажатий клавиш мыши,
-	//для браузеров поддерживающих DOM1
+	//РџРѕРґРєР»СЋС‡Р°РµРј РіР»РѕР±Р°Р»СЊРЅС‹Р№ РѕР±СЂР°Р±РѕС‚С‡РёРє РЅР°Р¶Р°С‚РёР№ РєР»Р°РІРёС€ РјС‹С€Рё,
+	//РґР»СЏ Р±СЂР°СѓР·РµСЂРѕРІ РїРѕРґРґРµСЂР¶РёРІР°СЋС‰РёС… DOM1
 	if (document.getElementById)
 		document.body.onclick = fClickHandler;
 	}

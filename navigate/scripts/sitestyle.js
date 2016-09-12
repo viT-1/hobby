@@ -1,6 +1,6 @@
 <!--
 function fSetSiteStyle(sId){
-	//ОШИБОЧНО работает в IE при попытке сменить стиль на себя же!
+	//РћРЁРР‘РћР§РќРћ СЂР°Р±РѕС‚Р°РµС‚ РІ IE РїСЂРё РїРѕРїС‹С‚РєРµ СЃРјРµРЅРёС‚СЊ СЃС‚РёР»СЊ РЅР° СЃРµР±СЏ Р¶Рµ!
 	var arrStyles = ["","001winter/screen.css","002summer/screen.css"];
 	var iStyle = parseInt(sId.substring(3,sId.length));
 	if ((iStyle < 0) || (iStyle > arrStyles.length)) return;
@@ -9,7 +9,7 @@ function fSetSiteStyle(sId){
 	var sCurrentCss;
 	var oLinkScrStyle = document.getElementById("screen");
 	
-	//Показываем кнопки всех стилей и убираем выбранный
+	//РџРѕРєР°Р·С‹РІР°РµРј РєРЅРѕРїРєРё РІСЃРµС… СЃС‚РёР»РµР№ Рё СѓР±РёСЂР°РµРј РІС‹Р±СЂР°РЅРЅС‹Р№
 	document.getElementById("jst0").style.display="inline";
 	document.getElementById("jst1").style.display="inline";
 	document.getElementById("jst2").style.display="inline";
@@ -28,7 +28,7 @@ catch(e){alert("fSetSiteStyle: "+e.number+": "+e.description);}
 }
 
 function fCssOnOff(iOff) {
-	//Убрать/восстановить пустые пункты меню
+	//РЈР±СЂР°С‚СЊ/РІРѕСЃСЃС‚Р°РЅРѕРІРёС‚СЊ РїСѓСЃС‚С‹Рµ РїСѓРЅРєС‚С‹ РјРµРЅСЋ
 	var oheadmenu_gr1 = document.getElementById("headmenu_gr1");
 	var	oheadmenu_gr2 = document.getElementById("headmenu_gr2");
 	if ((oheadmenu_gr1 == null) || (oheadmenu_gr2 == null)) return;

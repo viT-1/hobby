@@ -2,14 +2,14 @@
 <h1 id="SiteName"><span>viT-1.ru</span></h1>
 <ul id="headmenu_gr1" class="roadline">
 	<li id="biker"></li>
-	<li id="btn1"><a href="https://vit-1.github.io/hobby/velo/">Вело...</a></li>
-	<li id="btn2">Коллекции</li>
-	<li id="btn3"><a href="https://vit-1.github.io/hobby/design/">Дизайн</a></li>
+	<li id="btn1"><a href="https://vit-1.github.io/hobby/velo/">Р’РµР»Рѕ...</a></li>
+	<li id="btn2">РљРѕР»Р»РµРєС†РёРё</li>
+	<li id="btn3"><a href="https://vit-1.github.io/hobby/design/">Р”РёР·Р°Р№РЅ</a></li>
 </ul>
 <ul id="headmenu_gr2" class="roadline">
-	<li id="btn5"><a href="https://vit-1.github.io/hobby/viT/">Уголок</a></li>
+	<li id="btn5"><a href="https://vit-1.github.io/hobby/viT/">РЈРіРѕР»РѕРє</a></li>
 	<li id="btn6"></li>
-	<li id="btn7"><a href="https://vit-1.github.io/hobby/links/">Ссылки</a></li>
-	<li id="btn8"><a href="https://vit-1.github.io/hobby/map/">Карта сайта</a></li>
+	<li id="btn7"><a href="https://vit-1.github.io/hobby/links/">РЎСЃС‹Р»РєРё</a></li>
+	<li id="btn8"><a href="https://vit-1.github.io/hobby/map/">РљР°СЂС‚Р° СЃР°Р№С‚Р°</a></li>
 </ul>
 <script type="text/javascript" src="https://vit-1.github.io/hobby/navigate/scripts/beforeload.js"></script>

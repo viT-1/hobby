@@ -22,7 +22,7 @@ function getCookie(name) {
 }
 
 function setCookie (name, value, expires, path, domain, secure) {
-	//expires.toGMTString() нельзя
+	//expires.toGMTString() РЅРµР»СЊР·СЏ
     var curCookie = name + "=" + escape(value) +
             ((expires) ? "; expires=" + expires : "") +
             ((path) ? "; path=" + path : "") +
@@ -32,7 +32,7 @@ function setCookie (name, value, expires, path, domain, secure) {
     //if (!caution || (name + "=" + escape(value)).length <= 4000)
         document.cookie = curCookie;
     /*else
-        if (confirm("Cookie превышает 4KB и будет вырезан !"))
+        if (confirm("Cookie РїСЂРµРІС‹С€Р°РµС‚ 4KB Рё Р±СѓРґРµС‚ РІС‹СЂРµР·Р°РЅ !"))
             document.cookie = curCookie;
     */
 }
